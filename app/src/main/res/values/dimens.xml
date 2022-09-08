@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="textViewWidth">200dp</dimen>
-    <dimen name="textViewHeight">40dp</dimen>
+    <dimen name="textViewHeight">50dp</dimen>
     <dimen name="editTextWidth">200dp</dimen>
-    <dimen name="editViewHeight">40dp</dimen>
+    <dimen name="editViewHeight">50dp</dimen>
     <dimen name="textSize">25sp</dimen>
-    <dimen name="textSizeLar"
+    <dimen name="textSizeLarge">40sp</dimen>
 </resources>

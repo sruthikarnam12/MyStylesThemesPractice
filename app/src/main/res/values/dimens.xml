@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Dimens for TextView -->
     <dimen name="textViewWidth">200dp</dimen>
     <dimen name="textViewHeight">50dp</dimen>
+
+    <!-- Dimens for EditText -->
     <dimen name="editTextWidth">200dp</dimen>
     <dimen name="editViewHeight">50dp</dimen>
+
+    <!-- Dimens for Text -->
     <dimen name="textSize">25sp</dimen>
     <dimen name="textSizeLarge">40sp</dimen>
+
+    <!-- Dimens for Button -->
+    <dimen name="buttonWidth">120dp</dimen>
+    <dimen name="buttonHeight">60dp</dimen>
 </resources>

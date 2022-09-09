@@ -9,7 +9,7 @@
     <dimen name="editViewHeight">50dp</dimen>
 
     <!-- Dimens for Text -->
-    <dimen name="textSize">25sp</dimen>
+    <dimen name="textSize">20sp</dimen>
     <dimen name="textSizeLarge">40sp</dimen>
 
     <!-- Dimens for Button -->

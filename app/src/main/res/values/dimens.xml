@@ -7,6 +7,7 @@
     <!-- Dimens for EditText -->
     <dimen name="editTextWidth">200dp</dimen>
     <dimen name="editViewHeight">50dp</dimen>
+    <dimen name="editTextPadding">10dp</dimen>
 
     <!-- Dimens for Text -->
     <dimen name="textSize">20sp</dimen>

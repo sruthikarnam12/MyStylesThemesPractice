@@ -11,14 +11,13 @@
     tools:ignore="ExtraText">
 
 
-
     <EditText
-        style="@style/EditTextTheme"
         android:id="@+id/editText"
-        android:inputType="textPersonName"
-        android:hint="Name"
-        android:gravity="left"
+        style="@style/EditTextTheme"
         android:layout_margin="@dimen/marginSize"
+        android:gravity="left"
+        android:hint="Name"
+        android:inputType="textPersonName"
         android:padding="@dimen/paddingSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,11 +27,11 @@
         app:layout_constraintVertical_bias="0.263" />
 
     <Button
-        style="@style/ButtonTheme"
         android:id="@+id/button"
-        android:text="BUTTON"
+        style="@style/ButtonTheme"
         android:layout_margin="@dimen/marginSize"
         android:padding="@dimen/paddingSize"
+        android:text="BUTTON"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -59,7 +58,7 @@
         android:layout_margin="@dimen/marginSize"
         android:gravity="center"
         android:padding="@dimen/paddingSize"
-        android:text="Type your name below..."
+        android:text="Type your name above..."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

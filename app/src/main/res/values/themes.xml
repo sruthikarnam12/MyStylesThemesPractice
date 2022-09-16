@@ -20,6 +20,7 @@
         <item name="android:padding">@dimen/editTextPadding</item>
         <item name="android:layout_width">@dimen/editTextWidth</item>
         <item name="android:layout_height">@dimen/editViewHeight</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
     <style name="TextViewTheme" parent="android:style/Widget.TextView">
@@ -27,8 +28,9 @@
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:padding">@dimen/editTextPadding</item>
-        <item name="android:layout_width">@dimen/editTextWidth</item>
-        <item name="android:layout_height">@dimen/editViewHeight</item>
+        <item name="android:layout_width">@dimen/textViewWidth</item>
+        <item name="android:layout_height">@dimen/textViewHeight</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
     <style name="ButtonTheme" parent="android:style/Widget.Button">
@@ -38,5 +40,6 @@
         <item name="android:padding">@dimen/editTextPadding</item>
         <item name="android:layout_width">@dimen/buttonWidth</item>
         <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 </resources>

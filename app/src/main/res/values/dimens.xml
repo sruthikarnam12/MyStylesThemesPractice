@@ -16,4 +16,8 @@
     <!-- Dimens for Button -->
     <dimen name="buttonWidth">120dp</dimen>
     <dimen name="buttonHeight">60dp</dimen>
+
+    <!-- Dimens for Padding and Margins -->
+    <dimen name="paddingSize">5dp</dimen>
+    <dimen name="marginSize">5dp</dimen>
 </resources>

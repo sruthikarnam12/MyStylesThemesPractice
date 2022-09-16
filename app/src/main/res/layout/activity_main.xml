@@ -8,12 +8,13 @@
     tools:context=".MainActivity">
 
     <EditText
+        style="@style/EditTextTheme"
         android:id="@+id/editText"
-        android:layout_width="@dimen/editTextWidth"
-        android:layout_height="@dimen/editViewHeight"
         android:inputType="textPersonName"
         android:hint="Name"
         android:gravity="left"
+        android:layout_margin="@dimen/marginSize"
+        android:padding="@dimen/paddingSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -22,11 +23,11 @@
         app:layout_constraintVertical_bias="0.263" />
 
     <Button
+        style="@style/ButtonTheme"
         android:id="@+id/button"
-        android:layout_width="@dimen/buttonWidth"
-        android:layout_height="@dimen/buttonHeight"
-        android:text="Button"
-        android:textStyle="bold"
+        android:text="BUTTON"
+        android:layout_margin="@dimen/marginSize"
+        android:padding="@dimen/paddingSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -35,11 +36,11 @@
         app:layout_constraintVertical_bias="0.396" />
 
     <Button
+        style="@style/ButtonTheme"
         android:id="@+id/button2"
-        android:layout_width="@dimen/buttonWidth"
-        android:layout_height="@dimen/buttonHeight"
-        android:text="Button"
-        android:textStyle="bold"
+        android:text="BUTTON"
+        android:layout_margin="@dimen/marginSize"
+        android:padding="@dimen/paddingSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -49,17 +50,18 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_height="@dimen/textViewHeight"
-        android:layout_width="@dimen/textViewWidth"
-        android:text="Type your name below..."
+        style="@style/TextViewTheme"
+        android:layout_width="192dp"
+        android:layout_height="60dp"
+        android:layout_margin="@dimen/marginSize"
         android:gravity="center"
-        android:textSize="@dimen/textSize"
-        android:textColor="@color/primaryGreenDarkColor"
+        android:padding="@dimen/paddingSize"
+        android:text="Type your name below..."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.171" />
+        app:layout_constraintVertical_bias="0.164" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
